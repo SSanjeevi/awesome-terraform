@@ -58,7 +58,6 @@ Terraform enables you to safely and predictably create, change, and improve prod
 - [Terraform Bug Tracker](https://github.com/hashicorp/terraform/issues)
 - [Terraform Community Modules](https://github.com/terraform-community-modules)
 - [Terraform Twitter Community](https://twitter.com/i/communities/1501688565884928007)
-- [Terraform Gitter](https://gitter.im/hashicorp-terraform)
 - [Terraform Discuss](https://discuss.hashicorp.com/c/terraform-core/27)
 - [Terraform Provider/Module Registry](https://registry.terraform.io/)
 - [Terraform PDF Doc](https://github.com/dohsimpson/terraform-doc-pdf) :skull:
@@ -201,7 +200,6 @@ For more Community Modules not listed here please see the [Terraform Module Regi
 
 - [anthology](https://github.com/erikvanbrakel/anthology) - Private Terraform registry implementation as an alternative to the official registry.
 - [citizen](https://github.com/outsideris/citizen) - Private Terraform Module Registry
-- [modulehub](https://www.modulehub.io) - Private Terraform Module Registry and State backend.
 - [tapir](https://github.com/PacoVK/tapir) - Modular Private Terraform Registry platform with provider and modules support. Provides powerful UI generates security metrics, dependency visualization and autogenerates documentation.
 - [terraform-simple-registry](https://github.com/apparentlymart/terraform-simple-registry) - Simple implementation of the Terraform registry protocols.
 - [terraform-registry](https://github.com/philips-labs/terraform-registry) - Serve terraform provider registry backed by GitHub releases.
@@ -227,7 +225,8 @@ For more Community Modules not listed here please see the [Terraform Module Regi
 
 - [terraform-provider-alicloud](https://github.com/aliyun/terraform-provider-alicloud) - Provider for Alibaba Cloud.
 - [terraform-provider-atlas](https://github.com/ariga/terraform-provider-atlas) - Provider for [Atlas](https://atlasgo.io/).
-- [terraform-provider-azuredevops](https://github.com/mikaelkrief/terraform-provider-azuredevops) - Provider for Azure DevOps (VSTS).
+- [terraform-provider-azapi](https://github.com/Azure/terraform-provider-azapi) - Provider for Azure Resource Manager Rest API
+- [terraform-provider-azuredevops](https://github.com/microsoft/terraform-provider-azuredevops) - Provider for Azure DevOps (VSTS).
 - [terraform-provider-buildkite](https://github.com/buildkite/terraform-provider-buildkite) - Provider for Buildkite.
 - [terraform-provider-checkly](https://github.com/checkly/terraform-provider-checkly) - Manage [Checkly](https://www.checklyhq.com) resources for API & E2E monitoring.
 - [terraform-provider-confluent](https://github.com/confluentinc/terraform-provider-confluent) - Provider for Confluent.
@@ -256,6 +255,7 @@ For more Community Modules not listed here please see the [Terraform Module Regi
 - [terraform-provider-spinnaker](https://github.com/armory-io/terraform-provider-spinnaker) - Provider for [Spinnaker](https://www.spinnaker.io/).
 - [terraform-provider-spotinst](https://github.com/spotinst/terraform-provider-spotinst) - Provider for spotinst.
 - [terraform-provider-stripe](https://github.com/franckverrot/terraform-provider-stripe) - Provider for Stripe.
+- [terraform-provider-terracurl](https://github.com/devops-rob/terraform-provider-terracurl) - Provider to make managed and unamanged API calls to your target endpoint.
 - [terraform-provider-ucloud](https://github.com/ucloud/terraform-provider-ucloud) - Provider to manage UCloud resources.
 - [terraform-provider-uptimerobot](https://github.com/louy/terraform-provider-uptimerobot) - Provider to manage uptimerobot resources.
 - [terraform-provider-vaulted](https://github.com/sumup-oss/terraform-provider-vaulted) - Encrypted HashiCorp Vault secrets via Terraform that can be stored in SCM such as Git.
@@ -279,7 +279,7 @@ For more Community Modules not listed here please see the [Terraform Module Regi
 - [atmos](https://github.com/cloudposse/atmos) - A universal tool that converts deep merged YAML to module inputs. :alien:
 - [atlantis](https://github.com/runatlantis/atlantis) - Unified workflow for collaborating on Terraform through GitHub.
 - [aws2tf](https://github.com/aws-samples/aws2tf) - automates the importing of existing AWS resources into Terraform and outputs the Terraform HCL code.
-- [aztfy](https://github.com/Azure/aztfy) - A tool to bring existing Azure resources under Terraform's management.
+- [aztfexport](https://github.com/Azure/aztfexport) - A tool to bring existing Azure resources under Terraform's management.
 - [blast radius](https://github.com/28mm/blast-radius) - Interactive visualizations of Terraform dependency graphs. :skull:
 - [Checkov](https://github.com/bridgecrewio/checkov/) - Terraform static analysis tool for terraform>=0.12
 - [Cloudrail](https://github.com/indeni/cloudrail-demo) - Terraform and Live Cloud context-based analysis tool for terraform>=0.12 :heavy_dollar_sign:
@@ -395,12 +395,12 @@ For more Community Modules not listed here please see the [Terraform Module Regi
 - [tfe-state-explorer](https://github.com/segmentio/tfe-state-explorer) - Simple shell for exploring remote terraform enterprise state, with autocomplete. :skull:
 - [Scalr](https://scalr.com) - Alternative to Terraform Enterprise with OPA integration, organizational structure, custom hooks, native integrations with other DevOps platforms, and centralized reporting.  :heavy_dollar_sign:
 - [env0](https://env0.com) - Alternative to Terraform Cloud/Enterprise with OPA integration, custom flows and Terragrunt support :heavy_dollar_sign:
-- [modulehub](https://www.modulehub.io) - Private Terraform Module Registry and State backend.
 - [Brainboard](https://www.brainboard.co) - Visually Design, Deploy & Manage modern cloud infrastructures starting from any Cloud Provider - AWS, GCP, Azure :heavy_dollar_sign:
 - [OTF](https://github.com/leg100/otf) - Open Terraforming Framework, an open source alternative to Terraform Enterprise with full Terraform CLI integration.
 - [Terrakube](https://terrakube.org) - Open Source alternative to Terraform Enterprise with private registry, remote state, custom flows, scheduled workspaces and visual states.
 - [Spacelift](https://spacelift.io/) - Alternative to Terraform Cloud/Enterprise. Collaborative Infrastructure Delivery Platform for Terraform :heavy_dollar_sign:
 - [Terrateam](https://terrateam.io) - Terraform GitOps with cost estimation, static analysis, access controls, drift detection, and custom workflows. :heavy_dollar_sign:
+- [Digger](https://digger.dev) - Open Source Alternative to Terraform Cloud - Run Terraform plan & apply jobs in your CI. 
 
 ## Videos
 
